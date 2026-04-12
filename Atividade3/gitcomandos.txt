@@ -1,0 +1,74 @@
+Main:
+
+Seção 1 (intro):
+
+Item 1: git commit
+Item 2: git branch[nome]
+        git checkout[nome]
+        git checkout -b [nomedasuabranch]
+Item 3: git merge
+Item 4: git rebase
+
+Seção 2 (rampup): 
+
+Item 1: HEAD   (é o último commit que você fez o checkout sobre)
+Item 2: ^      (vai para o pai do commit especificado)
+        git checkout HEAD^
+Item 3: ~      (vai para um número especificado de commits para trás)
+        -f     (move uma branch pra cima)
+Item 4: git reset  (mover branch para trás)
+        git revert
+
+Seção 3 (move):
+Item 1:git cherry-pick <commit1><...>    (commits específicos) 
+Item 2:git rebase -i
+
+Seção 4 (mixed):
+
+Item 1: exercício.
+Item 2: git commit --amend    (pequena modificação)
+Item 3: exercício.
+Item 4: git tag
+Item 5: git describe          (descreve onde você está com  relação a uma tag)
+
+Seção 5 (advanced):
+
+Item 1: exercício
+Item 2: ^<número>      (procura por pais diferentes)
+Item 3: exercício
+
+Remote:
+
+Seção 1 (remote): 
+
+Item 1: git clone
+Item 2: origin/<nome de branch>
+Item 3: git fetch     (baixar dados de um repositório remoto)
+Item 4: git pull
+        git merge
+Item 5: exercício
+Item 6: git push
+Item 7: git pull --rebase
+Item 8: exercício
+
+Seção 2 (remoteAdvanced):
+
+Item 1: exercício
+Item 2: exercício
+Item 3: especificando origin/main
+        git branch -u origin/main
+Item 4: exercício com parâmetros do git push
+Item 5: git push origin <origem>:<destino>
+Item 6: parâmetros do fetch
+Item 7: git push e git pull vazios
+        git pull origin :
+        git push origin
+Item 8: parâmetros do pull
+
+
+
+
+
+
+
+9a
