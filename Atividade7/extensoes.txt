@@ -1,0 +1,5 @@
+dbaeumer.vscode-eslint
+esbenp.prettier-vscode
+formulahendry.auto-close-tag
+pkief.material-icon-theme
+ritwickdey.liveserver
